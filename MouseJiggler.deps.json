@@ -1,0 +1,179 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {},
+    ".NETCoreApp,Version=v5.0/win-x64": {
+      "MouseJiggler/2.0.14": {
+        "dependencies": {
+          "JetBrains.Annotations": "2020.3.0",
+          "PInvoke.Kernel32": "0.7.78",
+          "PInvoke.User32": "0.7.78",
+          "System.CommandLine": "2.0.0-beta1.20574.7"
+        },
+        "runtime": {
+          "MouseJiggler.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2020.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2020.3.0.0",
+            "fileVersion": "2020.3.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.1": {},
+      "PInvoke.Kernel32/0.7.78": {
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.78",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Kernel32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.78.53581"
+          }
+        }
+      },
+      "PInvoke.User32/0.7.78": {
+        "dependencies": {
+          "PInvoke.Kernel32": "0.7.78",
+          "PInvoke.Windows.Core": "0.7.78",
+          "PInvoke.Windows.ShellScalingApi": "0.7.78",
+          "Validation": "2.4.15"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.User32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.78.53581"
+          }
+        }
+      },
+      "PInvoke.Windows.Core/0.7.78": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.Core.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.78.53581"
+          }
+        }
+      },
+      "PInvoke.Windows.ShellScalingApi/0.7.78": {
+        "dependencies": {
+          "PInvoke.Windows.Core": "0.7.78"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PInvoke.Windows.ShellScalingApi.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.78.53581"
+          }
+        }
+      },
+      "System.CommandLine/2.0.0-beta1.20574.7": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CommandLine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20.57407"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "Validation/2.4.15": {
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.15.30595"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MouseJiggler/2.0.14": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JetBrains.Annotations/2020.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FnX06vtxuoZnhZdR6UHt5kJ7HUC/syODfGLnhPDn1x5sXvvepNyCl4jMtPUzJfsPWh7q0Jo+AIYz5xaVbbyikA==",
+      "path": "jetbrains.annotations/2020.3.0",
+      "hashPath": "jetbrains.annotations.2020.3.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A5hI3gk6WpcBI0QGZY6/d5CCaYUxJgi7iENn1uYEng+Olo8RfI5ReGVkjXjeu3VR3srLvVYREATXa2M0X7FYJA==",
+      "path": "microsoft.csharp/4.4.1",
+      "hashPath": "microsoft.csharp.4.4.1.nupkg.sha512"
+    },
+    "PInvoke.Kernel32/0.7.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1CP5uXet9QJT52WPSXEmtqTaV2v0eUOzdW/2yjYLPJWCoNwrAn8hXBf4pEIdca6CZaJCNW6whT9ILCP61Kpshw==",
+      "path": "pinvoke.kernel32/0.7.78",
+      "hashPath": "pinvoke.kernel32.0.7.78.nupkg.sha512"
+    },
+    "PInvoke.User32/0.7.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o8mdj5SwCCj4+oJXNEg+bdaihvCqfqDXdBe8/ggDJSDUs2JpXvWca44WI4PWOEJ//lwQdCLXSn5fV+Vbufi1yA==",
+      "path": "pinvoke.user32/0.7.78",
+      "hashPath": "pinvoke.user32.0.7.78.nupkg.sha512"
+    },
+    "PInvoke.Windows.Core/0.7.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QJ0JSi3YFWR95rPTcp6FtSqWN4SDFsnsyrp5bmLxt0tyQaWPpsKwBaHZoJnEkKq69ytS5ZRMYIm0pHCnpWlkEQ==",
+      "path": "pinvoke.windows.core/0.7.78",
+      "hashPath": "pinvoke.windows.core.0.7.78.nupkg.sha512"
+    },
+    "PInvoke.Windows.ShellScalingApi/0.7.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/NTLOAjLdBjykWgQZQyLNT6w5/YdqlfSQTPMoIGaF5IBG9t6TPPafMmZkhtCVCEts/1JzzRlPjJg7+Q4z0gbvQ==",
+      "path": "pinvoke.windows.shellscalingapi/0.7.78",
+      "hashPath": "pinvoke.windows.shellscalingapi.0.7.78.nupkg.sha512"
+    },
+    "System.CommandLine/2.0.0-beta1.20574.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fGqXtGd0UWyVTYRz5hU0fyjR1w7VlrdjmkdADreE9JXMzhWYgYJNxaHWVum40qJjtAT3RLlI0dBf37jmRBh43Q==",
+      "path": "system.commandline/2.0.0-beta1.20574.7",
+      "hashPath": "system.commandline.2.0.0-beta1.20574.7.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "Validation/2.4.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KQFOtJKKhaXzuSiZhkFaFzQEdYsA+EN/XqKZDYwsGDOrS0Nxu6qzCvNTsDF4xtkiZbBA6u7I59QnsuP2O2fZgg==",
+      "path": "validation/2.4.15",
+      "hashPath": "validation.2.4.15.nupkg.sha512"
+    }
+  }
+}
